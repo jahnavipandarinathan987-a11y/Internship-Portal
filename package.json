@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "setup": "npm install && cd client && npm install"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.3",
+    "mongoose": "^8.24.7"
+  }
+}
